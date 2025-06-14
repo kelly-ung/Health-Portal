@@ -10,6 +10,15 @@ Frontend (React)
 - Patients and Doctors can book, view, and delete appointments.
 - Messaging supports one-on-one communication with automatic matching.
 
+## Demo
+[Health Portal Demo Video Link](https://drive.google.com/file/d/1-qkjgYTdb8HXlxxyiIKdodHt6D6rmyhV/view?usp=sharing)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/20dd98ad-03f5-4e2f-8f24-85ed6ada7a85" width="800"/>
+  <img src="https://github.com/user-attachments/assets/4296ced2-0a2f-443b-bac8-267f793b1a45" width="800"/>
+  <img src="https://github.com/user-attachments/assets/90b6c8be-0a31-46ae-baa3-f6e0f7a828a9" width="800"/>
+</p>
+
 ## Built With
 - React, JavaScript, CSS, Flask, MySQL
 
