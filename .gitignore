@@ -1,0 +1,49 @@
+# ========== Client ==========
+# dependencies
+client/node_modules/
+client/.pnp/
+client/.pnp.js
+
+# Environment files
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# testing
+client/coverage/
+
+# production
+client/build/
+
+# misc
+client/.DS_Store
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# ========== Server ==========
+# Python
+server/__pycache__/
+server/*.pyc
+server/venv/
+
+# Environment files
+server/.env
+server/.env.local
+
+# IDE/Editor settings
+server/.vscode/
+server/.idea/
+
+# Log files
+server/*.log
+
+# Distribution/Build directories
+server/dist/
+server/build/
+server/*.egg-info/
+
+# System files
+server/.DS_Store

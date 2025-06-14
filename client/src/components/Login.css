@@ -1,0 +1,66 @@
+/* css for both doctor and patient login pages */
+
+
+.account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.account-button {
+    font-size: 24px;
+    width: 40vh;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+}
+
+
+.login-form {
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f4f7fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+
+.login-form-item {
+    margin-bottom: 15px;
+}
+
+
+.login-form-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+
+.login-form-item input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+ 
+.login-form-item input:focus {
+    border-color: #4d90fe;
+    outline: none;
+}  
+
+
+.login-form-item input:hover {
+    background-color: rgb(255, 249, 241);
+    outline: none;
+}  
+
+
+.back-button {
+    margin-top: 1%;
+}

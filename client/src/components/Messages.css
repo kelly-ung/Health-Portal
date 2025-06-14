@@ -1,0 +1,88 @@
+.app {
+    color: rgb(0, 0, 0);
+    padding-left: 10%;
+}
+
+.chat-box {
+    padding-top: 1%;
+    padding-right: 10%;
+    color: rgb(0, 0, 0);
+}
+
+.empty-state{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.send-button {
+    display: flex;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 4%;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column; /* Stack messages vertically */
+    justify-content: flex-start; /* Align messages to the top */
+    align-items: flex-start; /* Align to the left initially */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    max-height: 400px; 
+    overflow-y: auto; 
+    font-size: 1rem; 
+}
+
+.message {
+    max-width: 50%; /* Limit message width */
+    padding: 2%;
+    border-radius: 20px; 
+    font-size: 1rem;
+    width: 35%;
+    display: inline-block;
+    word-wrap: break-word; /* Ensure long words wrap */
+}
+
+.message.user {
+    background-color: rgb(171, 187, 250);
+    align-self: flex-end; 
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.message.sender {
+    background-color: rgb(202, 202, 202); /* AI message bubble color */
+    align-self: flex-start; 
+    color: black; 
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.loading {
+    padding: 20px;
+    font-style: italic;
+    color: rgb(79, 79, 79);
+}
+
+.input-texts {
+    margin-top: 5%;
+    font-size: 1rem;
+    display: flex;
+    width: 100%;  
+    padding: 10px 15px;  
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

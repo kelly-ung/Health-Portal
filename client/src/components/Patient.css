@@ -1,0 +1,37 @@
+.container {
+    max-width: 50%;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+}
+
+.patient-dashboard {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.profile-card {
+    background-color: #fffdef91;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 10%;
+}
+
+.profile-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.profile-card strong {
+    color: #333;
+}
+
+.phone-update-button,
+.update-button {
+    cursor: pointer;
+    margin-left: 3%;
+    font-size: 70%;
+}
